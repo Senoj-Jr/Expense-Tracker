@@ -10,9 +10,9 @@ import java.util.Scanner;
 public class Tracker {
 	public static void main(String[] args) throws SQLException {
 		
-		String url = "jdbc:mysql://localhost:3306/senoj";
-		String username = "root";
-		String password = "Senoj@123";
+		String url = "jdbc:mysql://localhost:3306/YOUR_MYSQL_DATABASE_NAME";
+		String username = "YOUR_MYSQL_USERNAME";
+		String password = "YOUR_MYSQL_PASSWORD";
 		
 		Connection connection = null;
 		PreparedStatement preparedStatement = null;
